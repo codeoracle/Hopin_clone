@@ -1,0 +1,57 @@
+body{
+    margin: o;
+    padding: o;
+    background: #fff;
+    color: #202124;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(101, 100, 100, 0.182);
+    border-radius: 5px;
+    box-shadow: 5%;
+    
+}
+
+.box-wrapping{
+    padding: 50px 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sign-in{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sign-in h1{
+    color: #202124;
+    font-size: 28px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.3333;
+    padding: 0;
+    
+}
+
+.sign-in p{
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+.form-wrap{
+    display: inline;
+    width: 100%;
+}
